@@ -48,7 +48,7 @@ app.get('/videos/:filename', (req, res)=> {
 
 
 app.get('/', (req, res)=>{
-    res.json('Ola, bem vindo a minha API!')
+    res.json('Ola, bem vindo a minha API! 2.0')
 })
 
 app.listen(PORT, ()=>{
